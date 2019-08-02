@@ -35,3 +35,5 @@ Dejar de seguir versionando archivo pero sin eliminar:
 Fuentes:
 
 + https://www.pylint.org/#install
++ https://websemantics.uk/articles/displaying-code-in-web-pages/
++ https://pygithub.readthedocs.io/en/latest/introduction.html
