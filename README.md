@@ -20,6 +20,10 @@ Arrancar aplicación con servidor Werkzeug:
     $ pip install -r requirements.txt
     $ python app.py
 
+Dejar de seguir versionando archivo pero sin eliminar:
+
+    $ git update-index --assume-unchanged client.py
+
 
 ### PyLint
 
