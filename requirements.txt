@@ -1,4 +1,2 @@
-flask
-Jinja2
-gunicorn
+PyGithub
 pylint
