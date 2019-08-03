@@ -23,8 +23,9 @@ def get_content(repo_url, path, file):
 
 @route('/demo')
 def demo():
-    file_content = get_content('pepeul1191/flask-boilerplate-v3', '/demo/', 'views.py')
-    return '<pre><code>' + str(file_content.decoded_content, 'utf-8') + '</code></pre>'
+    file_content = get_content('pepeul1191/flask-boilerplate-v3', '/main/', 'middlewares.py')
+    code = str(file_content.decoded_content, 'utf-8')
+    return template('view_py', code=code)
 
 @route('/readme')
 def demo():

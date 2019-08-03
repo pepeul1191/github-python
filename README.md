@@ -40,3 +40,5 @@ Fuentes:
 + https://bottlepy.org/docs/dev/
 + https://cdnjs.com/libraries/github-markdown-css
 + https://github.com/sindresorhus/github-markdown-css
++ https://cdnjs.com/libraries/SyntaxHighlighter
++ https://o7planning.org/en/10375/highlighting-code-with-syntaxhighlighter-javascript-library
