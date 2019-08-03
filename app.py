@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from bottle import route, run, template
+from markdown2 import Markdown
 from client import g
 
 def list_content(repo_url):
@@ -24,5 +25,13 @@ def get_content(repo_url, path, file):
 def demo():
     file_content = get_content('pepeul1191/flask-boilerplate-v3', '/demo/', 'views.py')
     return '<pre><code>' + str(file_content.decoded_content, 'utf-8') + '</code></pre>'
+
+@route('/readme')
+def demo():
+    file_content = get_content('pepeul1191/flask-boilerplate-v3', '', 'README.md')
+    markdowner = Markdown()
+    html = markdowner.convert(str(file_content.decoded_content, 'utf-8'))
+    return template('readme', html=html)
+
 
 run(host='localhost', port=8082, debug=True)

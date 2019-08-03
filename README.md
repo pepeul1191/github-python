@@ -37,3 +37,6 @@ Fuentes:
 + https://www.pylint.org/#install
 + https://websemantics.uk/articles/displaying-code-in-web-pages/
 + https://pygithub.readthedocs.io/en/latest/introduction.html
++ https://bottlepy.org/docs/dev/
++ https://cdnjs.com/libraries/github-markdown-css
++ https://github.com/sindresorhus/github-markdown-css
